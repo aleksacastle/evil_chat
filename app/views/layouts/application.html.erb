@@ -2,13 +2,13 @@
 <html>
 <head>
   <title>EvilChat</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
+  <%= stylesheet_pack_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
 
+<%= javascript_pack_tag 'application' %>
 </body>
 </html>
