@@ -11,7 +11,7 @@ gem 'pg', '~> 0.15'
 # gem 'therubyracer', platforms: :ruby
 
 # webpacker
-gem 'webpacker', '~> 3.0'
+gem 'webpacker', '~> 3.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

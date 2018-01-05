@@ -147,7 +147,7 @@ DEPENDENCIES
   sidekiq (~> 4.1, >= 4.1.2)
   spring
   web-console (~> 2.0)
-  webpacker (~> 3.0)
+  webpacker (~> 3.2)
 
 BUNDLED WITH
    1.16.0
