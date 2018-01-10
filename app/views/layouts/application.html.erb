@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>EvilChat</title>
-  <%= stylesheet_pack_tag 'application' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-<%= javascript_pack_tag 'application' %>
-<%= javascript_pack_tag 'hello_react' %>
-</body>
+  <html>
+    <head>
+      <title>EvilChat</title>
+      <%= stylesheet_pack_tag 'application' %>
+      <%= csrf_meta_tags %>
+    </head>
+  <body>
+    <%= yield %>
+    <div id="container">
+      <%= javascript_pack_tag 'application' %>
+    </div>
+  </body>
 </html>
