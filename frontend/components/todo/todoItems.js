@@ -8,8 +8,11 @@ class TodoItems extends Component {
   }
 
   createTasks(item) {
-    return <li onClick={() => this.delete(item.key)}
-            key={item.key}>{item.text}</li>
+    return (
+      <li onClick={() => this.delete(item.key)} key={item.key}>
+        {item.text}
+      </li>
+    );
   }
 
   delete(key) {
@@ -20,12 +23,8 @@ class TodoItems extends Component {
     var todoEntries = this.props.entries;
     var listItems = todoEntries.map(this.createTasks);
 
-    return (
-      <ul className="theList">
-          {listItems}
-      </ul>
-    );
+    return <ul className="theList">{listItems}</ul>;
   }
-};
+}
 
 export default TodoItems;
