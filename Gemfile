@@ -13,6 +13,9 @@ gem 'pg', '~> 0.15'
 # webpacker
 gem 'webpacker', '~> 3.2'
 
+# react webpacker gem
+gem 'react_on_rails', '10.0.2'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
